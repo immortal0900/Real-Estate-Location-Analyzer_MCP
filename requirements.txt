@@ -1,0 +1,10 @@
+# Core dependencies
+gradio>=4.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# MCP Server (FastMCP)
+mcp>=0.9.0
+
+# Type hints
+typing-extensions>=4.8.0
