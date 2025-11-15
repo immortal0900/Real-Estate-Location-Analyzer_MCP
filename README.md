@@ -1,13 +1,15 @@
 ---
 title: 부동산 입지 분석 시스템
-
 colorFrom: blue
 colorTo: green
 sdk: gradio
-sdk_version: 4.44.1
+sdk_version: 5.49.1
 app_file: app.py
 pinned: false
 license: mit
+short_description: Space with tags for MCP 1st Birthday party
+tags:
+  - building-mcp-track-enterprise
 ---
 
 # 부동산 입지 분석 시스템
@@ -176,6 +178,3 @@ MIT License
 
 Made with Gradio and FastMCP
 
-short_description: Space with tags for MCP 1st Birthday party
-tags:
-  - building-mcp-track-enterprise
