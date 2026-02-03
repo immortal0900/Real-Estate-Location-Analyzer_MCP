@@ -39,7 +39,7 @@ Hugging Face Spaces에서 바로 사용하거나, 로컬에서 실행할 수 있
 #### 로컬 실행
 ```bash
 # 저장소 클론
-git clone https://huggingface.co/spaces/YOUR_USERNAME/real-estate-location-mcp
+git clone https://huggingface.co/spaces/MCP-1st-Birthday/real-estate-location-mcp
 cd real-estate-location-mcp
 
 # 가상환경 생성 및 의존성 설치 (uv 사용)
