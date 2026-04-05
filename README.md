@@ -60,13 +60,29 @@ python app.py
 
 AI 에이전트(Claude Desktop, Cline 등)에서 사용할 수 있는 MCP 서버를 제공합니다.
 
-#### MCP 서버 실행
+#### 방법 A: 원격 MCP Endpoint (권장)
+
+별도 설치 없이 Hugging Face Spaces에서 호스팅되는 MCP 서버에 바로 연결할 수 있습니다.
+
+`claude_desktop_config.json` 파일에 다음을 추가:
+
+```json
+{
+  "mcpServers": {
+    "real-estate-analyzer": {
+      "url": "https://immortal0900-real-estate-location-analyzer-mcp.hf.space/gradio_api/mcp/sse"
+    }
+  }
+}
+```
+
+#### 방법 B: 로컬 MCP 서버
+
 ```bash
 # 서버 실행
 python src/mcp_server.py
 ```
 
-#### Claude Desktop 설정 예시
 `claude_desktop_config.json` 파일에 다음을 추가:
 
 ```json
