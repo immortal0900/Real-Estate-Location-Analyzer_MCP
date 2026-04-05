@@ -301,7 +301,8 @@ def create_gradio_interface():
         analyze_btn.click(
             fn=analyze_location,
             inputs=[address_input, radius_input],
-            outputs=[html_output, json_output]
+            outputs=[html_output, json_output],
+            api_name="analyze_location"
         )
 
         # Enter 키로도 실행 가능
